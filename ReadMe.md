@@ -18,6 +18,8 @@ A sleek and responsive weather application that provides real-time weather infor
 - OpenWeather API
 - Animated Icons from Flaticon
 
+![My Skills](https://skillicons.dev/icons?i=html,css,javascript&theme=light&perline=3)
+
 ## Responsive Design
 
 - Desktop: Full width layout
