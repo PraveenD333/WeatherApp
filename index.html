@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <!-- Search Bar -->
+        <div class="search">
+            <input type="text" placeholder="Enter The City Name" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+        <!-- Error Messages -->
+        <div class="error">
+            <p style="color: red;">Invalid city Name</p>
+        </div>
+        <!-- Weather-Icon -->
+        <div class="weather">
+            <!-- Icons Temp,City etc  -->
+            <img src="images/rain.gif" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Banglore</h2>
+
+            <!-- humidity,wind -->
+            <div class="detail">
+                <div class="col">
+                    <img src="images/humidity.gif">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.gif">
+                    <div>
+                        <p class="wind">15 Km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Designed & Developed by Praveen</p>
+        <p class="copyright">© 2025 All Rights Reserved</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
